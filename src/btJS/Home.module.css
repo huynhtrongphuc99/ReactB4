@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+}
+.shop{
+    width: 20%;
+    padding-top: 30%;
+    margin-right: 10px;
+}
+.shop h1{
+    border: 4px solid #7aa5be;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    border: 4px solid #7aa5be;
+    padding: 20px;
+  }
+  .col {
+    width: 30%;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+  }
+  .btnCart{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    border: none;
+    background-color: white;
+  }
+  
