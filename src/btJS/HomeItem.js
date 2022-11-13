@@ -9,10 +9,10 @@ export default class HomeItem extends Component {
       <div>
 <div className={style.item}> 
          <img className={style.img} src={image} alt=''/>
-         <h3>{name}</h3>
+         <h5 style={{fontWeight:'800'}}>{name}</h5>
         <h5>{price}</h5>
          <div className={style.showbtn}>
-         <button className={style.btn}>Add to carts</button>
+         <button onClick={()=>{this.props.AddItemList(this.props.item)}} className={style.btn} >Add to carts</button>
          <button className={style.btn} onClick={()=>{this.props.showItem(this.props.item)}}>Show info</button>
          </div>
        </div>

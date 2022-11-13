@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 export class ShowInfo extends Component {
   render() {
-    console.log(this.props.item)
     const {image,name,price,shortDescription,quantity}= this.props.item
     return (
       <div style={{border : "2px solid #7aa5be " , padding:'10px' , backgroundColor:'beige' , width:'80%' , margin :'10px auto 0'}}>
